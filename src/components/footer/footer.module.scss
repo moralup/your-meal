@@ -1,0 +1,108 @@
+@mixin main-design($w, $p) {
+  width: $w;
+  padding: $p;
+}
+
+@mixin column($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: nunito;
+  font-size: 18px;
+  background-color: #fff;
+  &__content {
+    @include column(24px);
+    @include main-design(300px, 21px 0);
+    .footer__logo {
+      width: 198px;
+    }
+    .footer__contacts {
+      @include column(24px);
+      &-cont {
+        @include column(6px);
+        a {
+          margin-right: 15px;
+        }
+        &.order {
+          a {
+            font-size: 12px;
+            letter-spacing: -0.15px;
+            height: 24px;
+            &::before {
+              vertical-align: middle;
+              content: url('../../images/call.svg');
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 475px) {
+  .footer {
+    &__content {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 455px;
+      .footer__contacts {
+        margin-right: -7px;
+      }
+    }
+  }
+}
+@media (min-width: 660px) {
+  .footer {
+    &__content {
+      @include column(32px);
+      @include main-design(640px, 40px 0 0 0);
+      .footer__contacts {
+        flex-direction: row;
+        gap: 177px;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer {
+    .footer__content {
+      @include main-design(960px, 48px 0 0 0);
+      flex-direction: row;
+      .footer__contacts {
+        margin-top: 5px;
+        font-size: 24px;
+        gap: 50px;
+        &-cont {
+          gap: 24px;
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+      .footer__logo {
+        width: 305px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1330px) {
+  .footer {
+    .footer__content {
+      width: 1290px;
+      gap: 355px;
+      justify-content: flex-start;
+      .footer__contacts {
+        gap: 126px;
+      }
+    }
+  }
+}

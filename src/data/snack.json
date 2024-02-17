@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "name": "Куриные крылышки",
+    "price": 135,
+    "weight": 150,
+    "calories": 417,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/121248146-kurinye-krylyshki-600x600.webp",
+    "description": "Куриные крылышки - это аппетитные куриные крылышки в пикантной, хрустящей панировке. Еще вкуснее с соусом Барбекю!",
+    "ingredients": [
+      "3 / 5 / 7 крылышек приготовленных во фритюре",
+      "Масло растительное фритюрное"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Стрипсы",
+    "price": 99,
+    "weight": 120,
+    "calories": 270,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/569840627-stripsy-600x600.webp",
+    "description": "Стрипсы - это сочная, нежная курица в хрустящей панировке. Попробуйте стрипсы из 100% белого мяса!",
+    "ingredients": [
+      "3 / 5 / 7 полуфабрикатов из 100% мяса птицы «Стрипсы формованные замороженные»"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Наггетсы",
+    "price": 59,
+    "weight": 72,
+    "calories": 179,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/414626466-naggetsy-600x600.webp",
+    "description": "Наггетсы - это сочное 100% белое куриное мясо в хрустящей панировке со специями. Только натуральная курочка без искусственных красителей и ароматизаторов и без консервантов.",
+    "ingredients": [
+      "4 /6 / 9 / 18 куриных наггетс приготовленных во фритюре",
+      "Масло растительное фритюрное"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Сырные палочки",
+    "price": 99,
+    "weight": 87,
+    "calories": 397,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/858108154-syrnye-palochki-600x600.webp",
+    "description": "Сырные палочки - вкуснейшие сырные палочки в хрустящей панировке.",
+    "ingredients": [
+      "Сырные палочки в хрустящей панировке",
+      "Масло растительное фритюрное"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Сырные треугольники",
+    "price": 99,
+    "weight": 72,
+    "calories": 222,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/471239997-syrnye-treugolniki-600x600.webp",
+    "description": "Сырные треугольники",
+    "ingredients": [
+      "Сырные треугольники в хрустящей панировке",
+      "Масло растительное фритюрное"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Креветки ",
+    "price": 189,
+    "weight": 72,
+    "calories": 180,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/877680964-krevetki-600x600.webp",
+    "description": "Креветки - это королевские креветки в хрустящей панировке. Еще аппетитнее с соусом 1000 островов. Легко. Изысканно. Вкусно.",
+    "ingredients": [
+      "4 / 6 / 9 креветок в панировке приготовленные во фритюре",
+      "Масло растительное фритюрное"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Сырные колечки",
+    "price": 109,
+    "weight": 120,
+    "calories": 370,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/997419849-syrnye-kolechki-600x600.webp",
+    "description": "Сырные колечки - это аппетитные колечки из тянущегося сыра в хрустящей панировке.",
+    "ingredients": [
+      "Кольца из сыров Моцарелла и с голубой благородной плесенью в панировке",
+      "Масло растительное фритюрное"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Картофель Фри",
+    "price": 75,
+    "weight": 110,
+    "calories": null,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/437772257-grand-fri-600x600.webp",
+    "description": "Картофель Фри - это вкусные, обжаренные в растительном фритюре и слегка посоленные палочки картофеля.",
+    "ingredients": ["Картофель Фри", "Масло растительное фритюрное"]
+  },
+  {
+    "id": 9,
+    "name": "Картофель по-деревенски",
+    "price": 85,
+    "weight": 165,
+    "calories": 331,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/633541452-kartofel-po-derevenski-600x600.webp",
+    "description": "Картофель по-деревенски - это вкусные, обжаренные в растительном фритюре ломтики картофеля со специями.",
+    "ingredients": ["Картофель Фри", "Масло растительное фритюрное"]
+  },
+  {
+    "id": 10,
+    "name": "Гранд Фри",
+    "price": 85,
+    "weight": 165,
+    "calories": 331,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/437772257-grand-fri-600x600.webp",
+    "description": "Гранд Фри - это вкусные, обжаренные в растительном фритюре и слегка посоленные палочки картофеля.",
+    "ingredients": ["Картофель Фри", "Масло растительное фритюрное"]
+  },
+  {
+    "id": 11,
+    "name": "Луковые кольца",
+    "price": 79,
+    "weight": 130,
+    "calories": 233,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/399325563-lukovye-koltsa-600x600.webp",
+    "description": "Луковые кольца - это вкуснейшие луковые кольца в хрустящей панировке, обжаренные во фритюре.",
+    "ingredients": [
+      "луковые кольца в хрустящей панировке",
+      "Масло растительное фритюрное"
+    ]
+  }
+]

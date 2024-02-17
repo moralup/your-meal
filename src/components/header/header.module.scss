@@ -1,0 +1,127 @@
+@mixin circle($diameter, $t) {
+  width: $diameter;
+  height: $diameter;
+  top: $t;
+}
+
+.header {
+  font-family: nunito;
+  position: relative;
+  height: 459px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 24px;
+  margin-bottom: 30px;
+  .header__circle {
+    @include circle(611px, -152px);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: var(--main-color);
+  }
+  .header__logo {
+    position: relative;
+    display: block;
+    margin: 0 auto 19px;
+    background: none;
+  }
+  .content {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+    width: fit-content;
+    margin: auto;
+    background: none;
+    .content__burger {
+      width: 177px;
+      margin: auto;
+    }
+    .content__slogan {
+      display: block;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 120%;
+      margin-bottom: 16px;
+      a {
+        color: #ff5c00;
+      }
+    }
+    .content__action {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: -0.1px;
+    }
+  }
+}
+
+@media (min-width: 530px) {
+  .header {
+    height: 349px;
+    .header__circle {
+      @include circle(2540px, -2191px);
+    }
+    .header__logo {
+      margin-bottom: 35px;
+    }
+    .content {
+      flex-direction: row;
+      gap: 30px;
+      text-align: left;
+      padding-left: 10px;
+      .content__burger {
+        margin: 0;
+      }
+      .content__slogan {
+        font-size: 36px;
+        margin: 10px 0 26px;
+      }
+    }
+  }
+}
+
+@media (min-width: 824px) {
+  .header {
+    height: 466px;
+    margin-bottom: 40px;
+    .header__circle {
+      @include circle(2880px, -2414px);
+    }
+    .header__logo {
+      margin-bottom: 50px;
+    }
+    .content {
+      gap: 37px;
+      padding-left: 20px;
+      .content__burger {
+        width: 254px;
+      }
+      .content__slogan {
+        font-size: 50px;
+        margin: 15px 0 55px;
+      }
+      .content__action {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    .content {
+      gap: 57px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .header {
+    .header__circle {
+      @include circle(200vw, calc(-200vw + 466px));
+    }
+  }
+}

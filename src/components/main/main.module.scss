@@ -1,0 +1,38 @@
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  width: 300px;
+  margin-bottom: 80px;
+
+  .main__content {
+    margin: auto;
+    width: fit-content;
+  }
+}
+
+@media (min-width: 475px) {
+  .main {
+    width: 455px;
+  }
+}
+
+@media (min-width: 660px) {
+  .main {
+    width: 640px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    width: 960px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 1330px) {
+  .main {
+    width: 1290px;
+  }
+}

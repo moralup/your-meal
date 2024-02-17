@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Гранд Комбо",
+    "price": 240,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/598979133-grand-kombo-600x600.webp",
+    "description": "Стандартный Комбо состоит из Гранда, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 2,
+    "name": "Гранд Де Люкс Комбо",
+    "price": 272,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/786996478-grand-de-lyuks-kombo-600x600.webp",
+    "description": "Стандартный комбо состоит из Гранда Де Люкс, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 3,
+    "name": "Биг Спешиал Комбо",
+    "price": 351,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/514256677-big-speshial-kombo-600x600.webp",
+    "description": "Стандартный комбо состоит из Биг Спешиал, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 4,
+    "name": "Фиш Бургер Комбо",
+    "price": 269,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/616739709-fish-burger-kombo-600x600.webp",
+    "description": "Стандартный Комбо состоит из Фиш Бургера, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 5,
+    "name": "Двойной Чизбургер Комбо",
+    "price": 210,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/843937367-dvojnoj-chizburger-kombo-600x600.webp",
+    "description": "Стандартный комбо состоит из Двойного Чизбургера, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 6,
+    "name": "Чикен Премьер Комбо",
+    "price": 236,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/289751636-chiken-premer-kombo-600x600.webp",
+    "description": "Стандартный Комбо состоит из Чикен Премьера, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 7,
+    "name": "Чикен Хит Комбо",
+    "price": 184,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/454697722-chiken-hit-kombo-600x600.webp",
+    "description": "Чикен Хит Комбо - состоит из Чикен Хит, Наггетсов на выбор и Напитка на выбор. Цена Комбо может меняться в зависимости от комплектации."
+  },
+  {
+    "id": 8,
+    "name": "Куриные крылышки Комбо",
+    "price": 233,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/974207807-kurinye-krylyshki-kombo-600x600.webp",
+    "description": "Комбо состоит из Крылышек (3 шт / 5 шт / 7 шт), картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 9,
+    "name": "Наггетсы Комбо",
+    "price": 160,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/33960684-naggetsy-kombo-600x600.webp",
+    "description": "Комбо состоит из Наггетсов (6 шт / 9 шт), картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 10,
+    "name": "Цезарь Ролл Комбо",
+    "price": 272,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/325143769-tsezar-roll-kombo-600x600.webp",
+    "description": "Стандартный Комбо состоит из Цезарь Ролла, картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 11,
+    "name": "Креветки Комбо",
+    "price": 340,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/588768671-krevetki-kombo-600x600.webp",
+    "description": "Комбо состоит из Креветок (6 шт / 9 шт), картофеля / наггетсов на выбор и Напитка на выбор."
+  },
+  {
+    "id": 12,
+    "name": "Звёздное Комбо Милоша Биковича",
+    "price": 325,
+    "url": "https://vkusnotochkamenu.ru/image/cachewebp/catalog/photo/454048938-zvezdnoe-kombo-milosha-bikovicha-600x600.webp",
+    "description": "Звёздное Комбо Милоша Биковича состоит из Биг Хит, средний картофель, средний холодный напиток на выбор (кроме молочных коктейлей и сезонных напитков) и 4 наггетса."
+  }
+]

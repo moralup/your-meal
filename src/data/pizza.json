@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1,
+    "name": "Маргарита",
+    "price": 589,
+    "weight": 450,
+    "calories": 207,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2016/09/838-original-1668175010.jpg",
+    "ingredients": ["Пицца соус", "сыр моцарелла", "свежий помидор"]
+  },
+  {
+    "id": 2,
+    "name": "Мясная",
+    "price": 795,
+    "weight": 570,
+    "calories": 213,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2016/09/910-original-1668175013.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "колбаски пепперони",
+      "бекон",
+      "свинина",
+      "сочная курочка",
+      "свежий помидор"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Пепперони Гриль",
+    "price": 719,
+    "weight": 510,
+    "calories": 315,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2022/02/8031-original-1670235798.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "соус гриль",
+      "сыр моцарелла",
+      "колбаски пепперони",
+      "бекон",
+      "свинина",
+      "жареный лук"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Парма Рукола",
+    "price": 895,
+    "weight": 510,
+    "calories": 256,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2021/10/7859-original-1668175019.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "бальзамический соус",
+      "сыр моцарелла",
+      "сыр пармезан",
+      "пармская ветчина",
+      "черри",
+      "рукола"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Морепродукты с песто",
+    "price": 779,
+    "weight": 560,
+    "calories": 243,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2023/11/8952-original-1702647047.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "сыр пармезан",
+      "креветка",
+      "кальмар",
+      "осьминог",
+      "черри",
+      "соус песто"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Пепперони Грибы",
+    "price": 635,
+    "weight": 480,
+    "calories": 270,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2022/04/8122-original-1670235800.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "колбаски пепперони",
+      "сыр моцарелла",
+      "шампиньоны"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Аппетитная Курочка",
+    "price": 699,
+    "weight": 490,
+    "calories": 249,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2016/09/892-original-1668175023.jpg",
+    "ingredients": [
+      "Белый соус",
+      "сыр моцарелла",
+      "сочная курочка",
+      "зеленый лук"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Креветки с бужениной",
+    "price": 889,
+    "weight": 560,
+    "calories": 241,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2023/11/8956-original-1699530883.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "креветка",
+      "буженина",
+      "черри",
+      "рукола"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Пепперони Лайт",
+    "price": 595,
+    "weight": 490,
+    "calories": 270,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2022/05/8203-original-1670235802.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "колбаски пепперони",
+      "свежий помидор"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Домашняя",
+    "price": 695,
+    "weight": 530,
+    "calories": 223,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2022/05/8199-original-1670235804.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "ветчина",
+      "свежий помидор",
+      "маринованный огурчик",
+      "зеленый лук"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Ветчина Грибы",
+    "price": 685,
+    "weight": 450,
+    "calories": 235,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2021/03/7181-original-1668175028.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "ветчина",
+      "грибы шампиньоны"
+    ]
+  },
+
+  {
+    "id": 12,
+    "name": "Жюльен",
+    "price": 799,
+    "weight": 540,
+    "calories": 214,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2017/10/1758-original-1668175030.jpg",
+    "ingredients": [
+      "Белый соус",
+      "сыр моцарелла",
+      "сочная курочка",
+      "шампиньоны",
+      "красный лук"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Кебаб",
+    "price": 789,
+    "weight": 510,
+    "calories": 178,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2020/12/6840-original-1684398304.jpg",
+    "ingredients": [
+      "Соус баффало",
+      "пицца соус",
+      "сыр моцарелла",
+      "сочная баранина",
+      "перчик халапеньо",
+      "свежая кинза",
+      "болгарский перец"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Много мяса",
+    "price": 935,
+    "weight": 655,
+    "calories": 315,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2021/05/7254-original-1668175033.jpg",
+    "ingredients": [
+      "Соус 1000 островов",
+      "сыр моцарелла",
+      "сыр пармезан",
+      "колбаски чоризо",
+      "колбаски тоскана",
+      "свинина",
+      "говядина",
+      "сочная курочка",
+      "бекон"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Пицца BBQ",
+    "price": 825,
+    "weight": 610,
+    "calories": null,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2018/06/2448-original-1668175035.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "соус барбекю",
+      "сыр моцарелла",
+      "сочная курочка",
+      "бекон",
+      "ветчина",
+      "шампиньоны"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Дабл Пепперони",
+    "price": 795,
+    "weight": 510,
+    "calories": null,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2021/02/6806-original-1668175040.jpg",
+    "ingredients": ["Пицца соус", "сыр моцарелла", "колбаски пепперони"]
+  },
+
+  {
+    "id": 17,
+    "name": "Пепперони",
+    "price": 695,
+    "weight": 450,
+    "calories": null,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2016/09/842-original-1668175042.jpg",
+    "ingredients": ["Пицца соус", "сыр моцарелла", "колбаски пепперони"]
+  },
+  {
+    "id": 18,
+    "name": "Семь сыров",
+    "price": 885,
+    "weight": 535,
+    "calories": 240,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2020/02/5565-original-1668175044.jpg",
+    "ingredients": [
+      "Соус сырный",
+      "сыр моцарелла",
+      "сыр эмменталь",
+      "сыр блю чиз",
+      "сыр чеддер",
+      "сыр фетакса",
+      "сыр пармезан",
+      "сыр креметте"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Четыре сыра",
+    "price": 785,
+    "weight": 480,
+    "calories": 241,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2016/09/906-original-1668175046.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "сыр моцарелла",
+      "сыр чеддер",
+      "сыр эмменталь",
+      "сыр блю чиз"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Колбаски Спайси",
+    "price": 790,
+    "weight": 600,
+    "calories": 302,
+    "url": "https://foodband.ru/images/cat/wp-content/uploads/2021/09/7765-original-1699530898.jpg",
+    "ingredients": [
+      "Пицца соус",
+      "соус спайси",
+      "сыр моцарелла",
+      "колбаски пепперони",
+      "охотничьи колбаски",
+      "говядина",
+      "бекон"
+    ]
+  }
+]

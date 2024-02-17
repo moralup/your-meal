@@ -1,0 +1,221 @@
+.animation-close {
+  animation: delete 0.8s ease forwards;
+}
+.animation-open {
+  animation: open 0.8s ease forwards;
+}
+
+@keyframes delete {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    background-color: #fff;
+  }
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+%main-input {
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+@mixin main-design($w, $h, $p) {
+  width: $w;
+  height: $h;
+  padding: $p;
+}
+
+@mixin position($pos, $top, $left) {
+  position: $pos;
+  top: $top;
+  left: $left;
+}
+
+@mixin column($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+.delivery-wrap {
+  @include position(fixed, 0, 0);
+  @include main-design(100vw, 100vh, 0);
+  z-index: 2;
+  background-color: #000000c7;
+  transition: opacity 1s ease;
+  & * {
+    box-sizing: border-box;
+  }
+  .delivery {
+    @include position(fixed, 50%, 50%);
+    width: 100vw;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    background-color: #fff;
+    &__completed {
+      @include main-design(100%, 432px, 24px);
+      border-radius: 24px;
+      box-sizing: border-box;
+
+      p {
+        &:last-of-type {
+          color: #b1b1b1;
+          font-weight: 600;
+        }
+        margin-bottom: 20px;
+      }
+      a {
+        font-weight: 600;
+        color: #ff5c00;
+      }
+    }
+
+    &__label {
+      @include column(20px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffab08;
+      border-radius: 24px 0 0 24px;
+    }
+    &__content {
+      border-radius: 24px;
+      padding: 24px;
+      &-header {
+        display: flex;
+        justify-content: space-between;
+        height: 44px;
+        margin-bottom: 16px;
+        &-title {
+          font-size: 24px;
+          font-weight: 600;
+          align-self: flex-end;
+        }
+        &-close {
+          @include main-design(24px, 24px, 0);
+          position: relative;
+          &::before,
+          &::after {
+            content: '';
+            @include position(absolute, 2.5px, 10px);
+            @include main-design(1px, 20px, 0);
+            transform: rotate(135deg);
+            background-color: #b1b1b1;
+          }
+          &::after {
+            transform: rotate(45deg);
+          }
+        }
+      }
+      &-form {
+        @include column(8px);
+        input[type='text'],
+        input[type='tel'] {
+          @extend %main-input;
+          background-color: #fff;
+          border: 1px solid #f2f2f3;
+          padding-left: 15px;
+          &::placeholder {
+            color: #b1b1b1;
+            font-size: 12px;
+          }
+        }
+        input[type='submit'] {
+          @extend %main-input;
+          margin-top: 24px;
+          text-align: center;
+          background-color: #ff7020;
+          color: #fff;
+        }
+        &-checkbox {
+          padding: 12px 0;
+          label {
+            user-select: none;
+            position: relative;
+            display: flex;
+            font-size: 12px;
+            line-height: 18px;
+            margin-left: 30px;
+            input[type='checkbox']:checked {
+              @include position(absolute, -3px, -25px);
+              @include main-design(20px, 20px, 0);
+              content: url(../../images/icons-menu/pizza.svg);
+            }
+          }
+        }
+        &-address {
+          @include column(8px);
+          height: 88px;
+          &_close * {
+            display: none;
+          }
+          &-row {
+            display: flex;
+            gap: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 350px) {
+  .delivery-wrap {
+    .delivery {
+      width: 340px;
+    }
+  }
+}
+
+@media (min-width: 660px) {
+  .delivery-wrap {
+    .delivery {
+      display: flex;
+      width: 524px;
+      &__label {
+        display: flex;
+        width: 25%;
+        img {
+          width: 90px;
+        }
+      }
+      &__content,
+      &__completed {
+        width: 75%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .delivery-wrap {
+    .delivery {
+      width: 684px;
+      &__label {
+        width: 50%;
+        img {
+          width: auto;
+          &:not(:first-of-type) {
+            display: none;
+          }
+        }
+      }
+      &__content,
+      &__completed {
+        width: 50%;
+      }
+    }
+  }
+}

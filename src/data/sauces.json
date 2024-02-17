@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Соус Сырный",
+    "price": 49,
+    "weight": 24,
+    "calories": 75,
+    "url": "https://s82079.cdn.ngenix.net/330x0/38hskdepi8boz0c3eqflea4hqusc"
+  },
+  {
+    "id": 2,
+    "name": "Соус Кисло-Сладкий Чили",
+    "price": 49,
+    "weight": 24,
+    "calories": 40,
+    "url": "https://s82079.cdn.ngenix.net/330x0/afnayu5siu58nvckl0elfbaftiwc"
+  },
+  {
+    "id": 3,
+    "name": "Соус Барбекю",
+    "price": 49,
+    "weight": 24,
+    "calories": 133,
+    "url": "https://s82079.cdn.ngenix.net/330x0/m935zch7x2bg3pr3baownfmaig3m"
+  },
+  {
+    "id": 4,
+    "name": "Соус Чесночный",
+    "price": 49,
+    "weight": 24,
+    "calories": 85,
+    "url": "https://s82079.cdn.ngenix.net/330x0/8selsqqlillg190azhe5k9a557c6"
+  },
+  {
+    "id": 5,
+    "name": "Кетчуп Томатный",
+    "price": 49,
+    "weight": 24,
+    "calories": 30,
+    "url": "https://s82079.cdn.ngenix.net/330x0/3pa7xeryn0h0gxanlg3kv45c0syf"
+  },
+  {
+    "id": 6,
+    "name": "Соус Терияки",
+    "price": 49,
+    "weight": 24,
+    "calories": 40,
+    "url": "https://s82079.cdn.ngenix.net/330x0/rdkxo48hfs85dl3g4jytovnc15m0"
+  }
+]

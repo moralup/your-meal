@@ -1,0 +1,104 @@
+@mixin main-layout($w, $h, $r) {
+  width: $w;
+  height: $h;
+  border-radius: $r;
+}
+
+.product {
+  @include main-layout(145px, 243px, 16px);
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: all 1s ease 0.1s;
+  position: relative;
+  span {
+    display: block;
+  }
+  &__image {
+    margin-bottom: 10px;
+    // line-height: 120px;
+    // text-align: center;
+    // font-size: 20px;
+    // font-weight: 600;
+    @include main-layout(100%, 120px, 12px);
+    pointer-events: none;
+    object-fit: cover;
+  }
+  &__price {
+    font-weight: 600;
+    margin-bottom: 4px;
+    line-height: 16px;
+    &_min {
+      font-size: 12px;
+    }
+  }
+  &__name {
+    margin-bottom: 16px;
+    height: 30px;
+    margin-bottom: auto;
+    font-size: 12px;
+    &_increased {
+      margin-bottom: 19px;
+    }
+  }
+  &__weight {
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: #b1b1b1;
+    font-size: 12px;
+  }
+  &__add-btn {
+    @include main-layout(100%, 30px, 8px);
+    background-color: #f2f2f3;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    &_added {
+      background-color: #ff7020;
+      color: #fff;
+    }
+  }
+  &_added {
+    .product__add-btn {
+      background-color: #ff7020;
+      color: #fff;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .product {
+    @include main-layout(300px, 411px, 18px);
+    padding: 12px;
+    &__image {
+      height: 220px;
+      margin-bottom: 14px;
+    }
+    &__price {
+      margin-bottom: 8px;
+      font-size: 24px;
+    }
+    &__name {
+      margin-bottom: 34px;
+      height: auto;
+      font-size: 16px;
+      &_increased {
+        margin-bottom: 60px;
+      }
+    }
+    &__weight {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &__add-btn {
+      @include main-layout(100%, 40px, 12px);
+      font-size: 16px;
+    }
+  }
+}
+
+@media (hover: hover) {
+  .product:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0 45px -14px #b1b1b1;
+  }
+}
